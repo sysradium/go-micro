@@ -5,7 +5,6 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/micro/go-micro/transport"
-	"github.com/micro/go-micro/transport/quic"
 )
 
 var (
@@ -78,10 +77,9 @@ func Transport(t transport.Transport) Option {
 // DefaultOptions returns router default options
 func DefaultOptions() Options {
 	return Options{
-		Id:        uuid.New().String(),
-		Address:   DefaultAddress,
-		Token:     DefaultToken,
-		Transport: quic.NewTransport(),
+		Id:      uuid.New().String(),
+		Address: DefaultAddress,
+		Token:   DefaultToken,
 	}
 }
 

@@ -19,7 +19,6 @@ require (
 	github.com/go-playground/locales v0.12.1 // indirect
 	github.com/go-playground/universal-translator v0.16.0 // indirect
 	github.com/go-telegram-bot-api/telegram-bot-api v4.6.4+incompatible // indirect
-	github.com/golang/mock v1.3.1 // indirect
 	github.com/golang/protobuf v1.3.2
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/go-cmp v0.3.1 // indirect
@@ -40,7 +39,6 @@ require (
 	github.com/json-iterator/go v1.1.7
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/leodido/go-urn v1.1.0 // indirect
-	github.com/lucas-clemente/quic-go v0.12.0
 	github.com/lusis/go-slackbot v0.0.0-20180109053408-401027ccfef5 // indirect
 	github.com/lusis/slack-test v0.0.0-20190426140909-c40012f20018 // indirect
 	github.com/micro/cli v0.2.0
@@ -52,8 +50,6 @@ require (
 	github.com/nats-io/nats-server/v2 v2.0.4 // indirect
 	github.com/nats-io/nats.go v1.8.1
 	github.com/nlopes/slack v0.5.0
-	github.com/onsi/ginkgo v1.8.0 // indirect
-	github.com/onsi/gomega v1.5.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/technoweenie/multipartstreamer v1.0.1 // indirect

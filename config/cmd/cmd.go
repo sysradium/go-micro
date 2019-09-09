@@ -42,7 +42,6 @@ import (
 	tgrpc "github.com/micro/go-micro/transport/grpc"
 	thttp "github.com/micro/go-micro/transport/http"
 	tmem "github.com/micro/go-micro/transport/memory"
-	"github.com/micro/go-micro/transport/quic"
 )
 
 type Cmd interface {
@@ -212,7 +211,6 @@ var (
 		"memory": tmem.NewTransport,
 		"http":   thttp.NewTransport,
 		"grpc":   tgrpc.NewTransport,
-		"quic":   quic.NewTransport,
 	}
 
 	// used for default selection as the fall back
